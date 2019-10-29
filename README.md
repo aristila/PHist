@@ -6,6 +6,8 @@ This program was created for Pseudohistoria project at the University of Turku (
 
 <h2>Required modules</h2>
 The program uses the following extra modules:
-	- beatufulsoup4 (https://pypi.org/project/beautifulsoup4/)
-	- robotexclusionrulesparser (https://pypi.org/project/robotexclusionrulesparser/)
+<ul>
+	<li>beatufulsoup4 (https://pypi.org/project/beautifulsoup4/)</li>
+	<li>robotexclusionrulesparser (https://pypi.org/project/robotexclusionrulesparser/)</li>
+</ul>
 
