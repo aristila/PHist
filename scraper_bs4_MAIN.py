@@ -15,22 +15,27 @@ from collections import OrderedDict
 
 #___SETUP:___
 
-#SEEDFILE and PREFIX
+#COMMAND LINE ARGUMENTS
 '''
 Give the seedfile name as a command line argument:
-[script name] [-s] [seed file name] 
+[-s] [seed file name] 
 This file should be in plain text format (.TXT with encoding = utf-8).
 DO NOT USE Microsoft Word documents or equivalent, because
 they usually include some metadata that screws things up.
-File for testing: test_seedlink.txt
-File for the real deal: fin_data_seedlinks.txt
-File for full level 2 scrape list: FIN_L2_links.txt
 
-Optional:
-Give a filename prefix as a command line argument:
+Give the language tag for filenames:
+[-l] [language tag]
+For example ENG or FIN or RUS.
+
+Give the level tag for filenames:
+[-L] [level tag]
+For example SEED or L2 or L3.
+A subdirectory by this name will be created for the files.
+
+Give a prefix:
 [script name] [-p] [prefix name]
 Prefix is used to track files for each partial cycle.
-Default prefix is empty.
+A subdirectory by this name will be created for the files.
 '''
 
 #Reads commandline arguments
